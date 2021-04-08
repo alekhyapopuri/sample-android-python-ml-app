@@ -42,29 +42,27 @@ def predict():
                 d2=request.json['D2']
                 ppe=request.json['PPE']
      
-    features_value=[[mdvpfo,mdvpfhi,mdvpflo,mdvpjitterper,mdvpjitterabs,mdvprap,mdvpppq,jitterddp,mdvpshimmer,mdvpshimmerdb,shimmerapq3,shimmerapq5,
+                features_value=[[mdvpfo,mdvpfhi,mdvpflo,mdvpjitterper,mdvpjitterabs,mdvprap,mdvpppq,jitterddp,mdvpshimmer,mdvpshimmerdb,shimmerapq3,shimmerapq5,
                      mdvpapq,shimmerdda,nhr,hnr,rpde,dfa,spread1,spread2,d2,ppe]]    
             
-    features_name = ['MDVP:Fo(Hz)', 'MDVP:Fhi(Hz)', 'MDVP:Flo(Hz)', 'MDVP:Jitter(%)',
-       'MDVP:Jitter(Abs)', 'MDVP:RAP', 'MDVP:PPQ', 'Jitter:DDP',
-       'MDVP:Shimmer', 'MDVP:Shimmer(dB)', 'Shimmer:APQ3', 'Shimmer:APQ5',
-       'MDVP:APQ', 'Shimmer:DDA', 'NHR', 'HNR', 'RPDE', 'DFA',
-       'spread1', 'spread2', 'D2', 'PPE']
+                features_name = ['MDVP:Fo(Hz)', 'MDVP:Fhi(Hz)', 'MDVP:Flo(Hz)', 'MDVP:Jitter(%)','MDVP:Jitter(Abs)', 'MDVP:RAP', 'MDVP:PPQ', 'Jitter:DDP','MDVP:Shimmer', 'MDVP:Shimmer(dB)', 'Shimmer:APQ3', 'Shimmer:APQ5',
+                'MDVP:APQ', 'Shimmer:DDA', 'NHR', 'HNR', 'RPDE', 'DFA',
+                'spread1', 'spread2', 'D2', 'PPE']
    
-    df = pd.DataFrame(features_value, columns=features_name)
+                df = pd.DataFrame(features_value, columns=features_name)
     
-    res = model.predict(df)
-    output=res[0]
+                res = model.predict(df)
+                output=res[0]
     
-    print(output)
+                print(output)
        
-    if output == 0:
-        res_val = "no parkinsons disease "
-    else:
-        res_val = "** parkinsons disease **"
+                if output == 0:
+                   res_val = "no parkinsons disease "
+                else:
+                   res_val = "** parkinsons disease **"
        
 
-    return res_val
+                return res_val
 
 
 
