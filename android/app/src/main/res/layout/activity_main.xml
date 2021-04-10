@@ -32,152 +32,135 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:inputType="numberDecimal"
-                android:hint="MDVP:Fo(Hz)"
+                android:hint="enter MDVP:Fo(Hz) value between 0 and 260.105"
                 android:id="@+id/mdvp_fo"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:inputType="numberDecimal"
-                android:hint="MDVP:Fhi(Hz)"
+                android:hint="enter MDVP:Fhi(Hz) value between 0 and 592.03"
                 android:id="@+id/mdvp_fhi"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:inputType="numberDecimal"
-                android:hint="MDVP:Flo(Hz)"
+                android:hint="enter MDVP:Flo(Hz) value between 0 and 239.17"
                 android:id="@+id/mdvp_flo"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:inputType="numberDecimal"
-                android:hint="MDVP:Jitter(%)"
+                android:hint="enter MDVP:Jitter(%) value between 0 and 0.03316"
                 android:id="@+id/mdvp_jitter_percent"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:hint="MDVP:Jitter(Abs)"
+                android:hint="enter MDVP:Jitter(Abs) value between 0 and 0.00027"
                 android:inputType="numberDecimal"
                 android:id="@+id/mdvp_jitter_abs"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:hint="MDVP:RAP"
+                android:hint="enter MDVP:RAP value between 0 and 0.02144"
                 android:inputType="numberDecimal"
                 android:id="@+id/mdvp_rap"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:hint="MDVP:PPQ"
+                android:hint="enter MDVP:PPQ value between 0 and 0.01958"
                 android:inputType="numberDecimal"
                 android:id="@+id/mdvp_ppq"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:inputType="numberDecimal"
-                android:hint="Jitter:DDP"
+                android:hint="enter Jitter:DDP value between 0 and 0.06433"
                 android:id="@+id/jitter_ddp"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:inputType="numberDecimal"
-                android:hint="MDVP:Shimmer"
+                android:hint="enter MDVP:Shimmer value between 0 and 0.11907999999999999"
                 android:id="@+id/mdvp_shimmer"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:inputType="numberDecimal"
-                android:hint="MDVP:Shimmer(dB)"
+                android:hint="enter MDVP:Shimmer(dB) value between 0 and 1.3019999999999998"
                 android:id="@+id/mdvp_shimmer_db"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:inputType="numberDecimal"
-                android:hint="Shimmer:APQ3"
+                android:hint="enter Shimmer:APQ3 value between 0 and 0.056470000000000006"
                 android:id="@+id/shimmer_apq3"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:inputType="numberDecimal"
-                android:hint="Shimmer:APQ5"
+                android:hint="enter Shimmer:APQ5 value between 0 and 0.0794"
                 android:id="@+id/shimmer_apq5"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:inputType="numberDecimal"
-                android:hint="MDVP:APQ"
+                android:hint="enter MDVP:APQ value between 0 and 0.13777999999999999"
                 android:id="@+id/mdvp_apq"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:hint="Shimmer:DDA"
+                android:hint="enter Shimmer:DDA value between 0 and 0.16942000000000002"
                 android:inputType="numberDecimal"
                 android:id="@+id/shimmer_dda"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:hint="NHR"
+                android:hint="enter NHR value between 0 and 0.31482"
                 android:inputType="numberDecimal"
                 android:id="@+id/nhr"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:inputType="numberDecimal"
-                android:hint="HNR"
+                android:hint="enter HNR value between 0 and 33.047"
                 android:id="@+id/hnr"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:hint="RPDE"
+                android:hint="enter RPDE value between 0 and 0.6851510000000001"
                 android:inputType="numberDecimal"
                 android:id="@+id/rpde"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:inputType="numberDecimal"
-                android:hint="DFA"
+                android:hint="enter DFA value between 0 and 0.8252879999999999"
                 android:id="@+id/dfa"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:inputType="numberDecimal"
-                android:hint="Spread1"
+                android:hint="enter Spread1 value between 0 and 2.434031"
                 android:id="@+id/spread1"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:hint="Spread2"
+                android:hint="enter Spread2 value between 0 and 0.450493"
                 android:inputType="numberDecimal"
                 android:id="@+id/spread2"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:hint="D2"
+                android:hint="enter D2 value between 0 and 3.671155"
                 android:inputType="numberDecimal"
                 android:id="@+id/d2"/>
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:inputType="numberDecimal"
-                android:hint="PPE"
+                android:hint="enter PPE value between 0 and 0.527367"
                 android:id="@+id/ppe"/>
-<!--            <EditText-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:hint="ppe"-->
-<!--                android:inputType="numberDecimal"-->
-<!--                android:id="@+id/worst_concavepoints"/>-->
-<!--            <EditText-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:hint="Worst symmetry"-->
-<!--                android:inputType="numberDecimal"-->
-<!--                android:id="@+id/worst_symmetry"/>-->
-<!--            <EditText-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:hint="Worst fractal dimesnion"-->
-<!--                android:inputType="numberDecimal"-->
-<!--                android:id="@+id/worst_fractaldimesnion"/>-->
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
